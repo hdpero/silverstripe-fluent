@@ -1,0 +1,44 @@
+hr:
+  TractorCow\Fluent\Control\LocaleAdmin:
+    MENUTITLE: Lokalizacije
+  TractorCow\Fluent\Model\Domain:
+    DEFAULT: 'Zadani jezik'
+    DEFAULT_NONE: (nijedan)
+    DOMAIN_HOSTNAME: 'Naziv poslužitelja domene'
+    DOMAIN_LOCALES: Lokalizacija
+    PLURALNAME: Domene
+    PLURALS:
+      one: 'Domena'
+      other: '{count} domena'
+    SINGULARNAME: Domena
+    UnsavedNotice: 'Možete dodati jezike kada spremite domenu.'
+  TractorCow\Fluent\Model\FallbackLocale:
+    LOCALE: Jezik
+    PLURALNAME: 'Pričuvni jezici'
+    PLURALS:
+      one: 'pričuvni jezik'
+      other: '{count} pričuvni jezik'
+    SINGULARNAME: 'Pričuvni jezik'
+  TractorCow\Fluent\Model\Locale:
+    DEFAULT_NONE: (nijedan)
+    DOMAIN: Domena
+    FALLBACKS: 'Pričuvni jezici'
+    IS_DEFAULT: 'Ovo je globalno zadani jezik'
+    IS_DEFAULT_DESCRIPTION: 'Napomena: specifičan jezik po domeni moguće je dodati na Jezici tabu koji poništava ovu vrijednost za specifične domene.'
+    LOCALE: Jezik
+    LOCALE_TITLE: Naslov
+    LOCALE_URL: 'URL dio'
+    PLURALNAME: Jezici
+    PLURALS:
+      one: 'jezik'
+      other: '{count} jezik'
+    SINGULARNAME: Jezik
+  TractorCow\Fluent\Extension\FluentSiteTreeExtension:
+    LOCALECOPYTODRAFT: 'Kopiraj u skicu'
+    LOCALECOPYANDPUBLISH: 'Kopiraj i objavi'
+    LOCALEDRAFTEDSHORT: 'Jezik skiciran'
+    LOCALEDRAFTEDHELP: 'Ova verzija skiciranog jezika nije objavljena'
+    LOCALEINHERITEDSHORT: 'Nasljeđeno'
+    LOCALEINHERITEDHELP: 'Stranica je nasljeđena s pričuvnog jezika'
+    LOCALESTATUSINHERITED: 'Sadržaj ove stranice je nasljeđen iz drugog jezika. Ako želite napraviti nezavisnu kopiju ove stranice, molimo koristite akciju "Kopiraj"'
+    LOCALESTATUSDRAFT: 'Skica je napravljena za ovaj jezik, međutim, objavljeni sadržaj je nasljeđen s drugih jezika. Da bi ste objavili sadržaj za ovaj jezik, koristite akciju "Spremi i objavi"..'
